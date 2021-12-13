@@ -1,0 +1,13 @@
+@mainUrl = http://localhost:3000/api
+
+###
+GET {{mainUrl}}/manga?_page=1&_limit=10
+
+###
+GET {{mainUrl}}/manga?q=con-gai-bat-nat
+
+###
+GET {{mainUrl}}/manga?view.all_gte=100&view.all_lte=300
+
+###
+GET {{mainUrl}}/manga?_sort=view.day&_order=desc&_start=0&_end=10
