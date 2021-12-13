@@ -1,1 +1,1 @@
-# ct-server
+# ctmanga-server created by json-server
