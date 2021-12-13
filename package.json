@@ -1,20 +1,24 @@
 {
-  "name": "json_server",
+  "name": "ctmanga-server",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "main.js",
-    "dev": "nodemon main.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vochithanh89/ctmanga-server.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vochithanh89/ctmanga-server/issues"
+  },
+  "homepage": "https://github.com/vochithanh89/ctmanga-server#readme",
   "dependencies": {
     "json-server": "^0.17.0",
     "query-string": "^7.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
